@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import SampleContainer from './redux/containers/SampleContainer'
+import Home from './pages/Home'
+import theme from './theme'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <SampleContainer />
+      <div style={theme.layout.body}>
+        <Home />
       </div>
     );
   }
