@@ -11,3 +11,4 @@
 
 ## Resources
 * https://facebook.github.io/create-react-app/docs/adding-a-css-modules-stylesheet
+* https://facebook.github.io/create-react-app/docs/adding-images-fonts-and-files#adding-svgs
