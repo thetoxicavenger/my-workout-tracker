@@ -1,9 +1,24 @@
-// action type
-export const SAMPLE_ACTION = 'SAMPLE_ACTION'
-// action creator, which returns an action
-export const sampleAction = payload => {
+// action types
+export const LOADING_WORKOUT_TYPES = 'LOADING_WORKOUT_TYPES'
+export const RECEIVE_WORKOUT_TYPES = 'RECEIVE_WORKOUT_TYPES'
+export const ERROR_LOADING_WORKOUT_TYPES = 'ERROR_LOADING_WORKOUT_TYPES'
+
+
+export function loadingWorkoutTypes() {
     return {
-        type: SAMPLE_ACTION,
+        type: LOADING_WORKOUT_TYPES
+    }
+}
+
+export function receiveWorkoutTypes(payload) {
+    return {
+        type: RECEIVE_WORKOUT_TYPES,
         payload
+    }
+}
+
+export function errorLoadingWorkoutTypes() {
+    return {
+        type: ERROR_LOADING_WORKOUT_TYPES
     }
 }

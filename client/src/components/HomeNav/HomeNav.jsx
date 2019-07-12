@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './HomeNav.module.css'
-import { ReactComponent as PlusIcon } from '../../add-button.svg';
+import { ReactComponent as PlusIcon } from './add-button.svg';
 
 class HomeNav extends React.Component {
     render() {

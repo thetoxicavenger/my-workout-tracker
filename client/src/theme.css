@@ -1,0 +1,21 @@
+:root {
+    --primary-background-color: #21213C;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #8E8D9F;
+}
+
+.primary-background-color {
+    background-color: var(--primary-background-color);
+}
+
+.primary-text-color {
+    color: var(--primary-text-color);
+}
+
+.secondary-text-color {
+    color: var(--secondary-text-color);
+}
+
+.h2-top-margin {
+    margin-top: 0.25em;
+}

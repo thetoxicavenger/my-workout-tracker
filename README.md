@@ -5,6 +5,7 @@
 * Unit test components
 * React-motion for animations
 * classnames npm module
+* https://github.com/reduxjs/reselect
 
 ## Inspiration
 * https://dribbble.com/shots/5613276-Workout-tracker/attachments
