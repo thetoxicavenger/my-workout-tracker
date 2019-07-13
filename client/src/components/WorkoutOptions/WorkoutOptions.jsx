@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classNames from 'classnames'
 import styles from './WorkoutOptions.module.css'
-import WorkoutTypeLink from '../WorkoutTypeLink/WorkoutTypeLink' 
+import WorkoutTypeLink from '../WorkoutTypeLink/WorkoutTypeLink'
 import mockData from '../../util/mock-data'
+
 
 class WorkoutOptions extends React.Component {
     componentDidMount = async () => {
@@ -13,7 +13,9 @@ class WorkoutOptions extends React.Component {
         const { workoutTypes } = this.props
         return (
             <>
-                {workoutTypes.map(workoutType => <WorkoutTypeLink key={workoutType.id} {...workoutType} />)}
+                <div className={styles.container}>
+                    {workoutTypes.map(workoutType => <WorkoutTypeLink key={workoutType.id} {...workoutType} />)}
+                </div>
             </>
         )
     }

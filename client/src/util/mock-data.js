@@ -8,7 +8,7 @@ export default {
         {
             id: 2,
             name: "Yoga",
-            icon: "https://cdn2.iconfinder.com/data/icons/fitness-health-and-diet/32/health_fitness_29-512.png"
+            icon: "https://www.shareicon.net/data/256x256/2016/09/07/827297_yoga_512x512.png"
         },
         {
             id: 3,
@@ -17,18 +17,9 @@ export default {
         },
         {
             id: 4,
-            name: "Elliptical",
-            icon: "https://cdn4.iconfinder.com/data/icons/sport-18/100/elliptic-512.png"
-        },
-        {
-            id: 5,
-            name: "Hiking",
-            icon: "https://cdn0.iconfinder.com/data/icons/people-lifestyle/100/Adventure-01-512.png"
-        },
-        {
-            id: 6,
             name: "Other",
             icon: "https://cdn4.iconfinder.com/data/icons/circles-1/32/501-01-512.png"
         },
+      
     ]
 }
