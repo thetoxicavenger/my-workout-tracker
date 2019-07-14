@@ -1,8 +1,8 @@
 export default {
-    workoutTypes: [
+    todaysWorkoutMuscles: [
         {
             id: 1,
-            name: "Weights",
+            name: "Chest",
             icon: "https://cdn4.iconfinder.com/data/icons/gym-workout-1/128/8-512.png"
         },
         {

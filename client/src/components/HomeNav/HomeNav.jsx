@@ -7,7 +7,7 @@ class HomeNav extends React.Component {
         return (
             <>
                 <div className={styles.container}>
-                    <h2>Workouts</h2>
+                    <h2>Workout Types</h2>
                     <div>
                         <a href="/types/new">
                             <PlusIcon />
